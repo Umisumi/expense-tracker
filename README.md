@@ -1,8 +1,5 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de control de gastos desarrollada con React que permite a los usuarios registrar, visualizar y gestionar sus gastos. Los datos se almacenan de forma persistente utilizando LocalStorage, lo que garantiza que la información se conserve entre sesiones sin necesidad de una base de datos externa. La interfaz es intuitiva y responsiva, permitiendo una experiencia fluida en dispositivos móviles y de escritorio.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Visualiza el proyecto en línea aquí: https://umisumi.github.io/expense-tracker/

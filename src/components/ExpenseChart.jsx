@@ -21,8 +21,14 @@ export function ExpenseChart() {
         totalExpenses
     });
 
-    const expensesPercentage = Math.round((totalExpenses / totalIncomes) * 100);
-    const incomesPercentage = 100 - (expensesPercentage);
+    const totalFlow = totalIncomes + totalExpenses;
+    let expensesPercentage = 0;
+    let incomesPercentage = 0;
+
+    if (totalFlow > 0) {
+      expensesPercentage = Math.round((totalExpenses / totalFlow) * 100);
+      incomesPercentage = Math.round((totalIncomes / totalFlow) * 100);
+    }
 
     if (totalIncomes === 0 && totalExpenses === 0) {
         return (

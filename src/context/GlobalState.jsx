@@ -49,11 +49,3 @@ export const GlobalProvider = ({children}) => {
         </Context.Provider>
     )
 }
-
-
-
-
-
-
-
-
